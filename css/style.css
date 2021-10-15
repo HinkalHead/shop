@@ -1,0 +1,107 @@
+:root {
+    --black: #222222;
+    --light-pink: #F1E4E6;
+}
+
+.container {
+    width: 1140;
+    margin: 0 auto;
+}
+
+.header__nav {
+    display: none;
+}
+
+.header {
+    background-color: var(--black);
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
+
+.header__logo {
+    margin: 0 41px 0 0;
+}
+
+.header__link {
+    margin: 0 0 0 31px;
+}
+
+.header__menu-btn {
+    border: 0;
+    background-color: transparent;
+}
+
+.brand {
+    display: flex;
+}
+
+.brand__wrp {
+    background-color: var(--light-pink);
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__title {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__subtitle {
+    display: flex;
+
+
+}
+
+.brand__subtitle-pink {
+    color: var(--pink);
+}
+
+.products,
+.cards {
+    display: flex;
+}
+
+.product-card {
+    width: 360px;
+    height: 581px;
+    margin: 15px;
+}
+
+.sales-card {
+    margin: 15px;
+}
+
+.labels {
+    background-color: var(--black);
+    min-height: 341px;
+    display: flex;
+    text-align: center;
+}
+
+.label__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label__items {
+    width: ;
+    justify-content: space-around;
+}
+
+.footer__rights {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 75px;
+}
